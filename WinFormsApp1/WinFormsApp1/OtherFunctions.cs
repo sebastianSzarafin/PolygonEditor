@@ -74,11 +74,11 @@ namespace WinFormsApp1
             }
             using (Graphics g = Graphics.FromImage(drawArea))
             {
-                using (Pen p = new Pen(c, 2))
-                {
-                    string length = $"{Math.Round(e.length, 2)}";
+                string length = $"{Math.Round(e.length, 2)}";
+                if (e.properties.Exists(property => property is LengthLimitProperty || property is LengthProperty)) 
+                    g.DrawString(length, edgeFont, Brushes.Red, (e.u.X + e.v.X) / 2 - 5, ((e.u.Y + e.v.Y)) / 2 - 5, drawFormat);
+                else
                     g.DrawString(length, edgeFont, Brushes.CornflowerBlue, (e.u.X + e.v.X) / 2 - 5, ((e.u.Y + e.v.Y)) / 2 - 5, drawFormat);
-                }
             }
         }
         public void BresenhamAlgorithm1(int x1, int y1, int x2, int y2, Color c)

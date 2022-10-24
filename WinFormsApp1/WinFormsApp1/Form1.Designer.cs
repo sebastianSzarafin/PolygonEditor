@@ -101,7 +101,7 @@ namespace WinFormsApp1
             this.editGroupBox.Size = new System.Drawing.Size(411, 223);
             this.editGroupBox.TabIndex = 0;
             this.editGroupBox.TabStop = false;
-            this.editGroupBox.Text = "Edycja";
+            this.editGroupBox.Text = "Edit tab";
             // 
             // editLayoutPanel
             // 
@@ -129,7 +129,7 @@ namespace WinFormsApp1
             this.vertexRemoveButton.Name = "vertexRemoveButton";
             this.vertexRemoveButton.Size = new System.Drawing.Size(129, 187);
             this.vertexRemoveButton.TabIndex = 3;
-            this.vertexRemoveButton.Text = "Usuń wierzcholek";
+            this.vertexRemoveButton.Text = "Remove vertex";
             this.vertexRemoveButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.vertexRemoveButton.UseVisualStyleBackColor = true;
             this.vertexRemoveButton.CheckedChanged += new System.EventHandler(this.vertexRemoveButton_CheckedChanged);
@@ -143,7 +143,7 @@ namespace WinFormsApp1
             this.vertexAddButton.Name = "vertexAddButton";
             this.vertexAddButton.Size = new System.Drawing.Size(129, 187);
             this.vertexAddButton.TabIndex = 2;
-            this.vertexAddButton.Text = "Dodaj wierzchołek";
+            this.vertexAddButton.Text = "Add vertex";
             this.vertexAddButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.vertexAddButton.UseVisualStyleBackColor = true;
             this.vertexAddButton.CheckedChanged += new System.EventHandler(this.vertexAddButton_CheckedChanged);
@@ -157,7 +157,7 @@ namespace WinFormsApp1
             this.polygonCreateButton.Name = "polygonCreateButton";
             this.polygonCreateButton.Size = new System.Drawing.Size(129, 187);
             this.polygonCreateButton.TabIndex = 0;
-            this.polygonCreateButton.Text = "Utwórz wielokąt";
+            this.polygonCreateButton.Text = "Create polygon";
             this.polygonCreateButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.polygonCreateButton.UseVisualStyleBackColor = true;
             this.polygonCreateButton.CheckedChanged += new System.EventHandler(this.polygonCreateButton_CheckedChanged);
@@ -171,7 +171,7 @@ namespace WinFormsApp1
             this.relationGroupBox.Size = new System.Drawing.Size(689, 223);
             this.relationGroupBox.TabIndex = 1;
             this.relationGroupBox.TabStop = false;
-            this.relationGroupBox.Text = "Relacje";
+            this.relationGroupBox.Text = "Relations tab";
             // 
             // relationLayoutPanel
             // 
@@ -201,7 +201,7 @@ namespace WinFormsApp1
             this.lengthChangeButton.Name = "lengthChangeButton";
             this.lengthChangeButton.Size = new System.Drawing.Size(164, 187);
             this.lengthChangeButton.TabIndex = 0;
-            this.lengthChangeButton.Text = "Zmień długość";
+            this.lengthChangeButton.Text = "Set const length";
             this.lengthChangeButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lengthChangeButton.UseVisualStyleBackColor = true;
             this.lengthChangeButton.CheckedChanged += new System.EventHandler(this.lengthChangeButton_CheckedChanged);
@@ -215,7 +215,7 @@ namespace WinFormsApp1
             this.lengthLimitButton.Name = "lengthLimitButton";
             this.lengthLimitButton.Size = new System.Drawing.Size(164, 187);
             this.lengthLimitButton.TabIndex = 1;
-            this.lengthLimitButton.Text = "Ogranicz długość";
+            this.lengthLimitButton.Text = "Limit length";
             this.lengthLimitButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lengthLimitButton.UseVisualStyleBackColor = true;
             this.lengthLimitButton.CheckedChanged += new System.EventHandler(this.lengthLimitButton_CheckedChanged);
@@ -230,7 +230,7 @@ namespace WinFormsApp1
             this.perpendicularityButton.Name = "perpendicularityButton";
             this.perpendicularityButton.Size = new System.Drawing.Size(164, 187);
             this.perpendicularityButton.TabIndex = 2;
-            this.perpendicularityButton.Text = "Wskaż krawędzie prostopadłe";
+            this.perpendicularityButton.Text = "Set perpendicular edges";
             this.perpendicularityButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.perpendicularityButton.UseVisualStyleBackColor = true;
             this.perpendicularityButton.CheckedChanged += new System.EventHandler(this.perpendicularityButton_CheckedChanged);
@@ -244,7 +244,7 @@ namespace WinFormsApp1
             this.viewRelationsButton.Name = "viewRelationsButton";
             this.viewRelationsButton.Size = new System.Drawing.Size(167, 187);
             this.viewRelationsButton.TabIndex = 3;
-            this.viewRelationsButton.Text = "Zobacz/Usuń relacje";
+            this.viewRelationsButton.Text = "Inspect/Remove relations";
             this.viewRelationsButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.viewRelationsButton.UseVisualStyleBackColor = true;
             this.viewRelationsButton.CheckedChanged += new System.EventHandler(this.viewRelationsButton_CheckedChanged);
@@ -258,7 +258,7 @@ namespace WinFormsApp1
             this.algGroupBox.Size = new System.Drawing.Size(273, 223);
             this.algGroupBox.TabIndex = 2;
             this.algGroupBox.TabStop = false;
-            this.algGroupBox.Text = "Algorytm";
+            this.algGroupBox.Text = "Algorithm tab";
             // 
             // algLayoutPanel
             // 
@@ -286,7 +286,7 @@ namespace WinFormsApp1
             this.alg1Button.Size = new System.Drawing.Size(261, 90);
             this.alg1Button.TabIndex = 0;
             this.alg1Button.TabStop = true;
-            this.alg1Button.Text = "Algorytm biblioteczny";
+            this.alg1Button.Text = "Library algorithm";
             this.alg1Button.UseVisualStyleBackColor = true;
             this.alg1Button.CheckedChanged += new System.EventHandler(this.alg1Button_CheckedChanged);
             // 
@@ -298,7 +298,7 @@ namespace WinFormsApp1
             this.alg2Button.Name = "alg2Button";
             this.alg2Button.Size = new System.Drawing.Size(261, 91);
             this.alg2Button.TabIndex = 1;
-            this.alg2Button.Text = "Algorytm Bresenhama";
+            this.alg2Button.Text = "Bresenham\'s algorithm";
             this.alg2Button.UseVisualStyleBackColor = true;
             this.alg2Button.CheckedChanged += new System.EventHandler(this.alg2Button_CheckedChanged);
             // 
