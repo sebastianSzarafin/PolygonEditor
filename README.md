@@ -1,6 +1,6 @@
 # GK-Proj1
 
-![image](https://user-images.githubusercontent.com/73365815/195675582-0332805e-5b08-4a7e-b1bc-76040a4c4b88.png)
+<img width="947" alt="PolygonDrawer" src="https://user-images.githubusercontent.com/74315304/200968735-8d1d6d1d-5fe1-417b-b6c8-4782f808ae4f.png">
 
 ## Introduction
   This is a project for *Computer Graphics 2022* course on Computer Science course. Starting this project there were defined crutial functionalities 
@@ -25,12 +25,12 @@ that needed to be implemented into the code, they are:
 ---
 ## Usage
   User may interact with an app using the User Interface placed in a top row of the main window. Each operation on the selected polygon is done with 
-left mouse button, except from moving the entire polygon which is done with the middle mouse button. 
+the left mouse button, except from moving the entire polygon which is done with the middle mouse button. 
   Perpendicular edges are marked with the same color (1 edge may have few of them). Edges with length relations are marked with red color.
 
 ---
 ## Alghorithm of relations
-  When there is a move on the cavnas that nessesitates fixing of relations, selected polygon calls on itself a function *Repair()* that takes it's start
+  When there is a move on the cavnas that nessesitates fixing of relations, selected polygon calls on itself a function *Repair()* that has it's start
 point in a vertex that is being edited. The algorithm takes 2 edges which are incident with the start point and moves them in the opposite direction 
 until neither of them needs fixing or they meet in an end point.
 
