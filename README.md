@@ -1,4 +1,4 @@
-# GK-Proj1
+# PolygonEditor
 
 <img width="947" alt="PolygonDrawer" src="https://user-images.githubusercontent.com/74315304/200968735-8d1d6d1d-5fe1-417b-b6c8-4782f808ae4f.png">
 
