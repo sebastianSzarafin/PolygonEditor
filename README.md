@@ -1,7 +1,8 @@
 # PolygonEditor
-
-<img width="700" alt="PolygonDrawer" src="https://user-images.githubusercontent.com/74315304/200968735-8d1d6d1d-5fe1-417b-b6c8-4782f808ae4f.png">
-
+<p align="center">
+  <img width="700" alt="PolygonDrawer" src="https://user-images.githubusercontent.com/74315304/200968735-8d1d6d1d-5fe1-417b-b6c8-4782f808ae4f.png">
+</p>
+  
 ## Introduction
   This is a project for *Computer Graphics 2022* course on Computer Science course. Starting this project there were defined crutial functionalities that needed to be implemented into the code, they are:
 - Adding, editing and deleting a polygon
